@@ -62,7 +62,7 @@ func mockEmptyArticle() -> ArticleList? {
     """
                 {
                     "status": "Ok",
-                    "copyright": "Copyright (c) 2023 The New York Times Company.  All Rights Reserved.",
+                    "copyright": "Copyright (c) 2024 The New York Times Company.  All Rights Reserved.",
                     "num_results": 0,
                     "results": []
                 }
@@ -85,7 +85,7 @@ func mockEmptyArticle() -> ArticleList? {
         """
                     {
                         "status": "Ok",
-                        "copyright": "Copyright (c) 2023 The New York Times Company.  All Rights Reserved.",
+                        "copyright": "Copyright (c) 2024 The New York Times Company.  All Rights Reserved.",
                         "num_results": 0,
                         "results": [
         {
