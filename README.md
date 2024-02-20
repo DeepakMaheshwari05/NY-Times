@@ -4,15 +4,15 @@ Build a simple app to hit the NY Times Most Popular Articles API and show a list
 
 
 ## Features
-- Fetches and displays a list of Most Popular Articles from theNYTimes API.
+- Fetches and displays a list of Most Popular Articles from the NY Times API.
 
 
 ## Architecture
-The app follows the MVVM architecture pattern and project is fully developed in SwiftUI.
+The app follows the MVVM architecture pattern and is fully developed in Swift.
 
 
 ## Testing
-The app includes unit tests to ensure the correctness of its components and features. The tests can be run using Fastlane, which provides automation for building, testing, and deploying iOS apps. Fastlane actions can be used to execute the unit tests and generate test reports.
+The app includes unit tests to ensure the correctness of its components and features. The tests can be run using Fastlane, which provides automation for building, testing, and deploying iOS apps. Fastlane actions can execute the unit tests and generate test reports.
 
 ### Prerequisites
 Before running the unit tests using Fastlane, make sure you have the following:
