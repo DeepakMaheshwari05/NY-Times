@@ -14,7 +14,7 @@ class ArticleListViewModel {
     var row = 0
     
     func fetchArticles() {
-        APIManager.getDataFromServer { [weak self] (response) in
+        APIManager().getDataFromServer { [weak self] (response) in
             guard let self = self else { return }
                 switch response {
                 case .success(let articleList):

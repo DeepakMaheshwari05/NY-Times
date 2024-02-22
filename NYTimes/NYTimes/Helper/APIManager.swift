@@ -12,14 +12,12 @@ enum DataError: Error {
     case invalidResponse
     case invalidURL
     case invalidData
-    case network(Error?)
-    case decoding(Error?)
 }
 
 
 class APIManager {
 
-    class func getDataFromServer(CompletionBlockWithSuccess completion: @escaping (Result<[ArticleDetail], DataError>) -> Void)  {
+    func getDataFromServer(CompletionBlockWithSuccess completion: @escaping (Result<[ArticleDetail], DataError>) -> Void)  {
 
         guard let url = URL(string: Constant.API.url) else {
             completion(.failure(.invalidURL))

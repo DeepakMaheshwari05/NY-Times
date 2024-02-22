@@ -48,7 +48,6 @@
 
 /* Begin PBXFileReference section */
 		2A43E94D2B84ACAB00D94887 /* MockAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAPIManager.swift; sourceTree = "<group>"; };
-		2A43E94F2B84B30900D94887 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2A8297E82B844AB10080C94B /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 		2A8297EA2B8459040080C94B /* ArticleDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewModel.swift; sourceTree = "<group>"; };
 		2A8297EF2B848C570080C94B /* ArticleDetail+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleDetail+Extension.swift"; sourceTree = "<group>"; };
@@ -147,7 +146,6 @@
 		2ABA7D842B838D26003D4A16 = {
 			isa = PBXGroup;
 			children = (
-				2A43E94F2B84B30900D94887 /* README.md */,
 				2ABA7D8F2B838D26003D4A16 /* NYTimes */,
 				2ABA7DA62B838D29003D4A16 /* NYTimesTests */,
 				2ABA7DB02B838D29003D4A16 /* NYTimesUITests */,
