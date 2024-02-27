@@ -24,7 +24,7 @@ class APIManager {
             return
         }
 
-        let request = NSMutableURLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 60.0)
+        var request = URLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 60.0)
 
         request.httpMethod = Constant.API.method
 
